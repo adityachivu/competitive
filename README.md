@@ -1,1 +1,3 @@
-#Competitive\nCode written for competitive coding problems
+# Competitive
+
+Code written for competitive coding problems.

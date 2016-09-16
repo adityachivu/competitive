@@ -1,0 +1,26 @@
+#include <iostream>
+#include <cmath>
+using namespace std;
+
+int main() {
+	
+	int n;
+	cin >> n;
+	long long b[n];
+	
+	long long int moves = 0;
+	
+	long long int temp = 0;
+	for ( int i = 0; i < n; i++)
+	{
+	    long long int curr;
+	    cin >> curr;
+	    moves += abs(curr - temp);
+	    temp = curr;
+	}
+	
+	cout << moves;
+	
+	
+	return 0;
+}
